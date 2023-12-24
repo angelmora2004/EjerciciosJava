@@ -1,9 +1,12 @@
 package Ejercicio_4_2_Paquetes_y_MetodosdeAcceso;
 
+/**
+ * @author Angel Mora
+ */
+
 public class Oficina extends Local {
 
 	protected static double valorArea = 3500000;
-
 	protected boolean esGobierno;
 
 	public Oficina(int identificadorInmobiliario, int área, String dirección, tipo tipoLocal, boolean esGobierno) {

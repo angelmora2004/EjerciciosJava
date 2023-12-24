@@ -1,5 +1,9 @@
 package Ejercicio_4_2_Paquetes_y_MetodosdeAcceso;
 
+/**
+ * @author Angel Mora
+ */
+
 public class Casa extends InmuebleVivienda {
 
 	protected int numeroPisos;

@@ -1,11 +1,13 @@
 package Ejercicio_4_2_Paquetes_y_MetodosdeAcceso;
 
+/**
+ * @author Angel Mora
+ */
+
 public class CasaRural extends Casa {
 
 	protected static double valorArea = 1500000;
-
 	protected int distanciaCabera;
-
 	protected int altitud;
 
 	public CasaRural(int identificadorInmobiliario, int area, String direccion, int numeroHabitaciones, int numeroBanos,

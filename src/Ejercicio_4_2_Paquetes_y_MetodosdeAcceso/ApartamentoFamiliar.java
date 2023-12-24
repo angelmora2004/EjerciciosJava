@@ -1,9 +1,12 @@
 package Ejercicio_4_2_Paquetes_y_MetodosdeAcceso;
 
+/**
+ * @author Angel Mora
+ */
+
 public class ApartamentoFamiliar extends Apartamento {
 
 	protected static double valorArea = 2000000;
-
 	protected int valorAdministracion;
 
 	public ApartamentoFamiliar(int identificadorInmobiliario, int area, String direccion, int númeroHabitaciones,

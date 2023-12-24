@@ -1,15 +1,16 @@
 package Ejercicio_4_2_Paquetes_y_MetodosdeAcceso;
 
+/**
+ * @author Angel Mora
+ */
+
 public class CasaConjuntoCerrado extends CasaUrbana {
 
 	protected static double valorArea = 2500000;
-
 	protected int valorAdministracion;
-
 	protected boolean tienePiscina;
-
 	protected boolean tieneCamposDeportivos;
-
+	
 	public CasaConjuntoCerrado(int identificadorInmobiliario, int area, String direccion, int numeroHabitaciones,
 			int numeroBanos, int numeroPisos, int valorAdministracion, boolean tienePiscina,
 			boolean tieneCamposDeportivos) {
