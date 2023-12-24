@@ -1,4 +1,4 @@
-package Ejercicio_4_2_Paquetes_y_MetodosdeAcceso;
+package ejercicio_4_2_Paquetes_y_MetodosdeAcceso;
 
 /**
  * @author Angel Mora

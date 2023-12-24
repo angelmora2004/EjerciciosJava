@@ -1,4 +1,4 @@
-package Ejercicio_4_4_Polimorfismo;
+package ejercicio_4_4_Polimorfismo;
 
 /**
  * @author Angel Mora
