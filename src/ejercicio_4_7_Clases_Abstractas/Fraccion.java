@@ -39,13 +39,10 @@ public class Fraccion extends Numerica {
 	@Override
 	public Numerica sumar(Numerica numero) {
 		
-		if (numero instanceof Fraccion) {
-		       Fraccion otra = (Fraccion) numero;
-		       int numeradorComun = this.numerador * otra.denominador + this.denominador * otra.numerador;
-		       int denominadorComun = this.denominador * otra.denominador;
-		       return new Fraccion(numeradorComun, denominadorComun);
-		   }
-		   throw new IllegalArgumentException("El objeto no es una fracción");
+		Fraccion otraFraccion = (Fraccion) numero;
+        int numeradorResultado = this.numerador * otraFraccion.denominador + otraFraccion.numerador * this.denominador;
+        int denominadorResultado = this.denominador * otraFraccion.denominador;
+        return new Fraccion(numeradorResultado, denominadorResultado);
 		
 	}
 
