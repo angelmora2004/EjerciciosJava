@@ -25,8 +25,7 @@ public class Prueba {
 		partidoBaloncesto.setCestasEquipoLocal(35);
 		partidoBaloncesto.setCestasEquipoVisitante(20);
 		partidoBaloncesto.imprimirMarcador();
-		
-		
+				
 	}
 
 }
